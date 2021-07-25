@@ -1,6 +1,9 @@
 import { police_station } from "../../assets"
+import { useHistory } from "react-router-dom";
 
 export default function PoliceStation() {
+    const history = useHistory();
+
     return (
         <div style={{
             width: "100%",
@@ -21,7 +24,7 @@ export default function PoliceStation() {
                     borderColor: "transparent",
                 }}
                 onClick={() => {
-                    window.location.replace("/weapon");
+                    history.push("/weapon");
                 }}
             ></button>
         </div>
