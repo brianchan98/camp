@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { school } from "../../assets";
 import Modal from 'react-modal';
+import { useHistory } from "react-router-dom";
 import {
     Link
 } from "react-router-dom";
@@ -34,11 +35,12 @@ export default function Home() {
         setIsOpen(false);
     }
 
+    const history = useHistory();
     function handlePW(event) {
         setPw(event.target.value);
         if (event.target.value === "5423") {
             console.log("Hihi")
-            window.location.replace("/camp/safe");
+            history.push("/camp/safe");
         }
     }
 
