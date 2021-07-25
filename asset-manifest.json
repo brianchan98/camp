@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/camp/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/camp/static/js/main.852e6d3a.chunk.js",
+    "main.js.map": "/camp/static/js/main.852e6d3a.chunk.js.map",
+    "runtime-main.js": "/camp/static/js/runtime-main.52028177.js",
+    "runtime-main.js.map": "/camp/static/js/runtime-main.52028177.js.map",
+    "static/js/2.dc0b7ea5.chunk.js": "/camp/static/js/2.dc0b7ea5.chunk.js",
+    "static/js/2.dc0b7ea5.chunk.js.map": "/camp/static/js/2.dc0b7ea5.chunk.js.map",
+    "static/js/3.c9ad9aef.chunk.js": "/camp/static/js/3.c9ad9aef.chunk.js",
+    "static/js/3.c9ad9aef.chunk.js.map": "/camp/static/js/3.c9ad9aef.chunk.js.map",
+    "index.html": "/camp/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/camp/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.dc0b7ea5.chunk.js.LICENSE.txt": "/camp/static/js/2.dc0b7ea5.chunk.js.LICENSE.txt",
+    "static/media/egg_ko_detail.2c89d8a4.jpg": "/camp/static/media/egg_ko_detail.2c89d8a4.jpg",
+    "static/media/green_cal_detail.7bdd03a4.jpg": "/camp/static/media/green_cal_detail.7bdd03a4.jpg",
+    "static/media/her_choco_detail.c38a8155.jpg": "/camp/static/media/her_choco_detail.c38a8155.jpg",
+    "static/media/police_station.a3824cb3.jpeg": "/camp/static/media/police_station.a3824cb3.jpeg",
+    "static/media/school.4257fa13.jpeg": "/camp/static/media/school.4257fa13.jpeg",
+    "static/media/school_safe.50f3d056.jpeg": "/camp/static/media/school_safe.50f3d056.jpeg",
+    "static/media/shelf2.33156c16.jpg": "/camp/static/media/shelf2.33156c16.jpg",
+    "static/media/smarties_detail.876b60a7.jpg": "/camp/static/media/smarties_detail.876b60a7.jpg",
+    "static/media/supermarket_bg.95ad72af.jpg": "/camp/static/media/supermarket_bg.95ad72af.jpg",
+    "static/media/thai_lay_detail.29f2a682.jpg": "/camp/static/media/thai_lay_detail.29f2a682.jpg",
+    "static/media/triangle_choco_detail.9ef9200f.jpg": "/camp/static/media/triangle_choco_detail.9ef9200f.jpg",
+    "static/media/weapon_list.b31a10d3.jpeg": "/camp/static/media/weapon_list.b31a10d3.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52028177.js",
+    "static/js/2.dc0b7ea5.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.852e6d3a.chunk.js"
+  ]
+}
