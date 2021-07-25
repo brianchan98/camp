@@ -48,7 +48,7 @@ export default function Home() {
     const [modal2IsOpen, setIsOpen2] = React.useState(false);
 
     function openModal2() {
-        setIsOpen(true);
+        setIsOpen2(true);
     }
 
     function afterOpenModal2() {
@@ -56,7 +56,7 @@ export default function Home() {
     }
 
     function closeModal2() {
-        setIsOpen(false);
+        setIsOpen2(false);
     }
 
 
