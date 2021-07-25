@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { news1, school } from "../../assets";
+import { news1, news2, news3, school } from "../../assets";
 import Modal from 'react-modal';
 import { useHistory } from "react-router-dom";
 import {
@@ -113,15 +113,45 @@ export default function Home() {
             <button
                 style={{
                     position: "absolute",
-                    left: "5vw",
-                    top: "35vh",
+                    left: "40vw",
+                    top: "25vh",
                     height: "40vh",
-                    width: "30vw",
-                    // background: "transparent",
+                    width: "15vw",
+                    background: "transparent",
                     borderColor: "transparent",
                 }}
                 onClick={() => {
                     setImageToBeShown(news1)
+                    openModal2()
+                }}
+            ></button>
+            <button
+                style={{
+                    position: "absolute",
+                    left: "59vw",
+                    top: "18vh",
+                    height: "40vh",
+                    width: "15vw",
+                    background: "transparent",
+                    borderColor: "transparent",
+                }}
+                onClick={() => {
+                    setImageToBeShown(news2)
+                    openModal2()
+                }}
+            ></button>
+            <button
+                style={{
+                    position: "absolute",
+                    top: "13vw",
+                    right: "14vh",
+                    height: "40vh",
+                    width: "15vw",
+                    background: "transparent",
+                    borderColor: "transparent",
+                }}
+                onClick={() => {
+                    setImageToBeShown(news3)
                     openModal2()
                 }}
             ></button>
