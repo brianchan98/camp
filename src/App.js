@@ -13,7 +13,7 @@ import WeaponList from "./pages/weapon/weapon_list";
 
 export default function BasicExample() {
   return (
-    <Router>
+    <Router basename="/camp">
       <div>
         <Switch>
           <Route exact path="/">
