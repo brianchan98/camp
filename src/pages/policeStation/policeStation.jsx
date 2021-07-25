@@ -5,14 +5,11 @@ export default function PoliceStation() {
     const history = useHistory();
 
     return (
-        <div style={{
-            width: "100%",
-            display: "flex"
+        <div className="home" style={{
+            backgroundImage: `url(${police_station})`,
+            height: "100vh",
+            backgroundSize: "cover"
         }}>
-            <img
-                src={police_station}
-                alt="weapon_list"
-            />
             <button
                 style={{
                     position: "absolute",
