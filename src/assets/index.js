@@ -10,6 +10,9 @@ import weapon_list from "./weapon_list.jpeg";
 import school from "./school.jpeg";
 import school_safe from "./school_safe.jpeg";
 import police_station from "./police_station.jpeg";
+import news1 from "./news1.jpg";
+import news2 from "./news2.jpg";
+import news3 from "./news3.jpg";
 
 export {
     supermarket_bg,
@@ -24,4 +27,7 @@ export {
     school,
     school_safe,
     police_station,
+    news1,
+    news2,
+    news3,
 };

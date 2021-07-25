@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { school } from "../../assets";
+import { news1, school } from "../../assets";
 import Modal from 'react-modal';
 import { useHistory } from "react-router-dom";
 import {
@@ -44,6 +44,22 @@ export default function Home() {
         }
     }
 
+    const [imageToBeShown, setImageToBeShown] = useState();
+    const [modal2IsOpen, setIsOpen2] = React.useState(false);
+
+    function openModal2() {
+        setIsOpen(true);
+    }
+
+    function afterOpenModal2() {
+        subtitle.style.color = '#f00';
+    }
+
+    function closeModal2() {
+        setIsOpen(false);
+    }
+
+
     return (
         <div className="home" style={{
             backgroundImage: `url(${school})`,
@@ -63,6 +79,23 @@ export default function Home() {
                 <input value={pw} onChange={handlePW} />
                 <button style={{display: 'block', marginTop: '10px'}} onClick={closeModal}>close</button>
             </Modal>
+            <Modal
+                isOpen={modal2IsOpen}
+                onAfterOpen={afterOpenModal2}
+                onRequestClose={closeModal2}
+                style={customStyles}
+                contentLabel="News"
+            >
+                <img
+                    src={imageToBeShown}
+                    style={{
+                        height: "70vh",
+                        display: "block",
+                    }}
+                    alt="news"
+                />
+                <button style={{display: 'block', marginTop: '10px'}} onClick={closeModal}>close</button>
+            </Modal>
             <button
                 style={{
                     position: "absolute",
@@ -75,6 +108,21 @@ export default function Home() {
                 }}
                 onClick={() => {
                     openModal()
+                }}
+            ></button>
+            <button
+                style={{
+                    position: "absolute",
+                    left: "5vw",
+                    top: "35vh",
+                    height: "40vh",
+                    width: "30vw",
+                    // background: "transparent",
+                    borderColor: "transparent",
+                }}
+                onClick={() => {
+                    setImageToBeShown(news1)
+                    openModal2()
                 }}
             ></button>
         </div >
