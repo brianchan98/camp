@@ -39,7 +39,7 @@ export default function Home() {
     function handlePW(event) {
         setPw(event.target.value);
         if (event.target.value === "5423") {
-            console.log("Hihi")
+            console.log("Hihi2")
             history.push("/camp/safe");
         }
     }
