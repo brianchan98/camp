@@ -38,7 +38,7 @@ export default function Home() {
         setPw(event.target.value);
         if (event.target.value === "5423") {
             console.log("Hihi")
-            window.location.replace("/safe");
+            window.location.replace("/camp/safe");
         }
     }
 
